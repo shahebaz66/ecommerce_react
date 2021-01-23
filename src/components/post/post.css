@@ -1,0 +1,68 @@
+.postcard{
+    padding: 15px;
+    margin-left: 5%;
+    
+    border-radius: 20px;
+    height: 600px;
+    width: 90%;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+}
+.postcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.postcardtop{
+    display: flex;
+}
+.postcardmiddle{
+    margin-left: 5px;
+    word-wrap: break-word;
+    margin-top: 15px;
+}
+
+.postcardtopimg{
+    margin-right: 10px;
+    width: 12%;
+    height: 12%;
+}
+
+.postcardtopimg img{
+    border-radius: 50%;
+    width: 100%;
+}
+.postcardimg{
+    margin-left: 2px;
+}
+.postcardimg img{
+    width: 550px;
+    height: 340px;
+}
+
+.scrollbar{
+    position: absolute;
+    
+    max-height: 90%;
+    width: 45%;
+    top:9%;
+    left:30%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.postcardbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    height:10%;
+    width:100%;
+  
+    padding-top:10px;
+    padding-left: 10px;
+}

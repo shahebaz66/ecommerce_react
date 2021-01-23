@@ -25,8 +25,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      .example{
+        width: 100vw;
+        height: 100vh;
+      }
+      .example::-webkit-scrollbar {
+        display: none;
+      }
+      @-moz-document url-prefix() {
+        html,body{overflow: hidden !important;}
+      }
+    </style>
   </head>
-  <body>
+  <body class="example">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -40,4 +52,5 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  
 </html>
